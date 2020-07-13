@@ -1,0 +1,114 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap";
+@import "https://fonts.googleapis.com/css?family=Roboto:700&display=swap";
+
+*{
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+body {
+background: #2c0057;
+font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+    
+    width: 800px;
+    height: 300px;
+    margin-top: 110px;
+    margin-left: 365px;
+    padding-right: 20px;
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+}
+
+#wrapper h1 {
+    color:white;
+    position: relative;
+    padding-top: 5px;
+    font-weight: bold;
+    cursor: default;
+}
+
+input[type="email"] {
+    margin-left: 32px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #cccccc; 
+    border:1px solid #000000;
+    width:150px
+}
+
+input[type="password"] {
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #cccccc; 
+    border:1px solid #000000;
+    width:150px
+}
+
+#wrapper .email {
+    padding-left: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: default;
+}
+
+#wrapper .password {
+    padding-left: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: default;
+}
+
+#wrapper img {
+    position: relative;
+    border-radius: 16px;
+    margin-left: 25px;
+    width: 120px;
+    height: 120px;
+}
+
+#wrapper table img {
+    padding-top: 65px;
+    padding-left: 289px;
+
+}
+
+#btnLogin {
+    padding: 8px 2px;
+    background-color: #FFB700;
+    color: white;
+    border-radius: 8px;
+    margin-top: 32px;
+    width: 10%;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 18px;
+}
+
+#logOutButton {
+    padding: 8px 2px;
+    background-color: #FFB700;
+    color: white;
+    border-radius: 8px;
+    margin-top: 32px;
+    width: 10%;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 18px;
+}

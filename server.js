@@ -23,7 +23,4 @@ res.render('../views/login.html')
 })
 
 
-server.get("/dashboard.html", (req, res ) => {
-    res.render('../views/dashborad.html')
-})
 

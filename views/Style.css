@@ -73,13 +73,7 @@ input[type="password"] {
     cursor: default;
 }
 
-#wrapper img {
-    position: relative;
-    border-radius: 16px;
-    margin-left: 25px;
-    width: 120px;
-    height: 120px;
-}
+
 
 #wrapper table img {
     padding-top: 65px;
